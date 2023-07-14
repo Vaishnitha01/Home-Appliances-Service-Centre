@@ -1,0 +1,293 @@
+/* /* nav {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+  }
+  
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px; 
+    margin-right: 10px; 
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin: 0 15px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      background-color: #fff;
+      margin: 5px 0;
+      transition: background-color 0.3s;
+    }
+  
+    .bar.active {
+      background-color: #f00;
+    }
+  
+    .menu.open {
+      display: flex;
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      padding: 10px;
+      z-index: 1;
+    }
+  
+    .menu.open li {
+      margin: 10px 0;
+    }
+  
+    .menu.open li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .logo {
+      justify-content: space-between;
+      margin-right: 10px;
+    }
+  }
+   */
+   /*nav {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .content {
+    padding-top:  60px;
+  }
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin: 0 15px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+      color: #fff;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+  
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      background-color: #fff;
+      margin: 5px 0;
+      transition: background-color 0.3s;
+    }
+  
+    .bar.active {
+      background-color: #f00;
+    }
+  
+    .menu.open {
+      display: flex;
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      padding: 10px;
+    }
+  
+    .menu.open li {
+      margin: 10px 0;
+    }
+  
+    .menu.open li a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+   */
+   nav {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .content {
+    padding-top:  60px;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin: 0 15px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+      color: #fff;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+  
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      background-color: rgb(100, 95, 95);
+      border-radius: 5%;
+      margin: 2px ;
+    }
+  
+    .bar.active {
+      background-color: black;
+    }
+  
+    .menu.open {
+      display: flex;
+      flex-direction: column;
+      background-color: #575454;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      padding: 10px;
+    }
+  
+    .menu.open li {
+      margin: 10px 0;
+    }
+  
+    .menu.open li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .logo {
+      width: 18rem;
+    }
+  }
+  
