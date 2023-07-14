@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+    section {
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    div {
+      width: 100%;
+      text-align: center;
+    }
+  
+    img {
+      width: 50%;
+      height: auto;
+      border-radius: 50%;
+    }
+  
+    button {
+      font-size: 12px;
+      padding: 8px 16px;
+      border-radius: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  
